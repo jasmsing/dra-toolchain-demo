@@ -9,7 +9,8 @@
             "description": {
                 "$ref": "#/messages/deploy.apiKeyDescription"
             },
-            "type": "string"
+            "type": "string",
+	    "pattern": "\\S"
         }
     },
     "required": [
